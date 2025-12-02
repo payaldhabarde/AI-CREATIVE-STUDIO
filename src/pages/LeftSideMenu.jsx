@@ -17,7 +17,7 @@ const LeftSideMenu = () => {
   const [showPopUp, setShowPopUp] = useState(false);
   return (
     <>
-      <div className="w-[1130px] bg-[#F4F4F4] pb-4">
+      <div className="left-side bg-[#F4F4F4] pb-4">
         <div className="left-side-menu flex justify-between items-center bg-white px-5 py-3 sticky top-0 z-50">
           <div className="relative">
             <SearchBar onTogglePopup={() => setShowPopUp(!showPopUp)} />

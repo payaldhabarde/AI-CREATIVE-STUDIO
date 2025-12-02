@@ -6,10 +6,14 @@ import RightSideContent from "./RightSideContent";
 const FirstScreen = () => {
   return (
     <>
-      <div className="firstScreen flex justify-between w-[100%] ">
-        <RightSideMenu />
+      <div className="firstScreen flex">
+        <div className="w-[25%] ">
+          <RightSideMenu />
+        </div>
 
-        <LeftSideMenu />
+        <div className="w-[75%] ">
+          <LeftSideMenu />
+        </div>
       </div>
     </>
   );

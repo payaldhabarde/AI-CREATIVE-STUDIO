@@ -5,7 +5,7 @@ import buttonIcon from "../../assets/Button.png";
 
 const UserUpgradePro = () => {
   return (
-    <div className="user_Upgrade_pro flex flex-col justify-between items-center bg-[#F4F4F4] p-3 rounded-xl ">
+    <div className="user_Upgrade_pro flex flex-col justify-between items-center bg-[#F4F4F4] p-4 rounded-xl w-full">
       <div className="flex gap-3 items-center">
         <img src={onlineUserIcon} alt="icon" className="w-10 h-10" />
         <div className="flex flex-col">
